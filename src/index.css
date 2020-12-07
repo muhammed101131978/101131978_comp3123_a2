@@ -19,6 +19,7 @@ body {
   background-image: url('./assets/hot_bg.jpg');
 }
 
+
 main {
   min-height: 100vh;
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.75));
@@ -85,10 +86,15 @@ main {
   font-size: 102px;
   font-weight: 900;
 
+  background-image: url('./assets/sunny.png');
+    background-repeat:no-repeat;
+    background-size:300px;
+
   text-shadow: 3px 6px rgba(50, 50, 70, 0.5);
   text-align: center;
   box-shadow: 3px 6px rgba(0, 0, 0, 0.2);
-}
+  }
+  
 
 .weather-box .weather {
   color: #FFF;
